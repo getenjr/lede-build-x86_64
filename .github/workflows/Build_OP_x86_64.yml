@@ -4,9 +4,11 @@
 # Author: eSirPlayground, modified by zfdang
 #=================================================
 
-name: Build_x86_64
+name: 编译amd64版本
 
-on: 
+on:
+  workflow_dispatch:
+
   #release:
   #  types: [published]
 
