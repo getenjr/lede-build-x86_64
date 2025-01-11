@@ -9,8 +9,8 @@ name: 编译amd64版本
 on:
   workflow_dispatch:
 
-  #release:
-  #  types: [published]
+  release:
+    types: [published]
 
   push:
     branches: 
